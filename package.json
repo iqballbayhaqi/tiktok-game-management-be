@@ -1,0 +1,31 @@
+{
+  "name": "tiktok-game-management-be",
+  "version": "1.0.0",
+  "description": "api for management all tiktok game",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "npx ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqballbayhaqi/tiktok-game-management-be.git"
+  },
+  "author": "iqbal baihaqi abdulah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iqballbayhaqi/tiktok-game-management-be/issues"
+  },
+  "homepage": "https://github.com/iqballbayhaqi/tiktok-game-management-be#readme",
+  "dependencies": {
+    "@prisma/client": "^5.10.2",
+    "express": "^4.18.2",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.20",
+    "prisma": "^5.10.2",
+    "typescript": "^5.3.3"
+  }
+}
